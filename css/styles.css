@@ -1,0 +1,147 @@
+html{
+	font-family: Arial, "Times New Roman";
+}
+
+nav li{
+	display: inline;
+	float: left;
+	white-space: nowrap;
+	border-radius: 0;
+	text-decoration: none;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 20%;
+	text-align: center;	
+}
+
+#attention img{
+	display: block;
+	margin: 0 auto;		
+}
+
+main{
+	clear: left;
+	margin-top: -0.3em;
+	margin-bottom: 1em;
+	border-radius: 0;
+	overflow: auto;
+	text-align: center;
+	background-color: #FFFFFF;
+	min-height: 50vh;
+}
+
+h1{
+	text-align: center;
+	color: #000000;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#container{
+	background-color: #FFFFFF;
+}
+
+header{
+	text-align: left;
+	background-color: #F2F2F2;
+}
+
+nav{
+	float: right;
+	margin-top: -7em;
+	margin-right: 3em;
+	margin-bottom: 0;
+	width: 80%;
+}
+
+nav ul{	
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+	text-decoration: none;
+}
+
+body{
+	background-color: #FFFFFF;
+	margin-top: 0px;
+ 	margin-right: 0px;
+ 	margin-bottom: 0px;
+	margin-left: 0px
+}
+
+nav li a{
+	display: inline-block;
+	padding: 0.7em;
+	color: #000000;
+	text-decoration: none;
+	margin-top: 2.5em;
+}
+
+nav li a:hover{
+	text-decoration: underline;
+}
+
+main p{
+	color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+footer{
+	background-color: #F2F2F2;
+	margin-top: -0.2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	color: #000000;
+}
+
+table, th, td{
+	border-collapse: collapse;
+	border: 1px solid #F2F2F2;
+	color: #000000;
+	text-align: center;
+}
+
+table{
+	width: 100%;
+}
+
+tr:nth-child(even) {background-color: #F2F2F2;}
+
+th{
+	height: 60px;
+}
+
+td{
+	height: 40px;
+}
+
+.description h1{
+	text-align: left;
+	padding-left: 1em;
+	padding-bottom: none;
+}
+
+.description p{
+	text-align: left;
+	padding-left: 1em;
+	padding-top: -2px;
+	padding-bottom: none;
+	min-height: 6.7vh;
+}
+
+.description a{
+	display: block;
+	text-align: left;
+	margin-left: 2em;
+}
+
+.description img{
+	display: block;
+	text-align: left;
+	padding-left: 2em;
+}
